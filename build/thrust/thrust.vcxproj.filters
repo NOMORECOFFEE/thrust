@@ -1,0 +1,2272 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Detail">
+      <UniqueIdentifier>{88bc73ae-878c-477f-8165-5843179432d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Iterator">
+      <UniqueIdentifier>{4390c693-caa8-42a9-8fb5-fc203e1cf893}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Random">
+      <UniqueIdentifier>{bfcc0f0a-2f91-4e0a-a0a5-18e247d561f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\System">
+      <UniqueIdentifier>{59d44993-b55e-4735-8fcd-4b445da4aae5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Detail\Allocator">
+      <UniqueIdentifier>{010d78cf-575b-497c-b482-26983e383f57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Detail\Config">
+      <UniqueIdentifier>{42aa5010-8d83-4ceb-a8a8-bcab8fe05107}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Detail\Dispatch">
+      <UniqueIdentifier>{4e35770e-7eb3-4b0c-bb09-ae8b6a42a4e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Detail\Functional">
+      <UniqueIdentifier>{888ecf5d-e554-4eee-98cc-88374fcc2efd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Detail\Mpl">
+      <UniqueIdentifier>{9669e6e5-8de2-4cbc-b9f0-1661b5a9fc21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Detail\Range">
+      <UniqueIdentifier>{ab2cc76f-8d12-4dd9-9801-d18dee55550f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Detail\Type_traits">
+      <UniqueIdentifier>{ee243fd9-4d6b-48f2-8ef3-e0dac2214035}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Detail\Util">
+      <UniqueIdentifier>{c6c3d60d-0479-4500-af5c-fa9199b5c521}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Detail\Functional\Operators">
+      <UniqueIdentifier>{6b265e32-ad6e-4bdb-ba92-c56322a4d8c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Detail\Type_traits\Algorithm">
+      <UniqueIdentifier>{0c877af9-5dc5-44e9-bb81-79faffa6ca57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Detail\Type_traits\Iterator">
+      <UniqueIdentifier>{4edf6d89-7a80-446d-8783-8b0266739f0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Iterator\Detail">
+      <UniqueIdentifier>{0f0cf53f-3c19-4ff5-a01c-8ec4543984af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Iterator\Detail\Placement">
+      <UniqueIdentifier>{4374119a-2f1b-4a85-a15b-81ebd1312a4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Random\Detail">
+      <UniqueIdentifier>{055e0cd0-c9d5-4fb3-b635-b9ec274f98cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\System\Cpp">
+      <UniqueIdentifier>{41d9822b-d9d4-4c6c-89f4-cca2cfe12736}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\System\Cuda">
+      <UniqueIdentifier>{fcafbbd0-e26f-4443-8020-381dbc0027bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\System\Detail">
+      <UniqueIdentifier>{97efea9b-3198-4ec7-bb66-6ea1d5700a82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\System\Hpx">
+      <UniqueIdentifier>{4651d83b-6f29-4401-b35b-ff305d37d05c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\System\Omp">
+      <UniqueIdentifier>{d106eb98-29dc-4a98-be6e-33036d45e6d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\System\Tbb">
+      <UniqueIdentifier>{eb9c51b5-653a-4caa-b1b1-4c6453952732}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\System\Cpp\Detail">
+      <UniqueIdentifier>{1e0cf8ab-980a-40a8-9b05-def158b446f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\System\Cpp\Detail\Dispatch">
+      <UniqueIdentifier>{d95a7e56-ab04-45bd-98fc-c30b83af5120}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\System\Cuda\Detail">
+      <UniqueIdentifier>{f423bd24-8686-4417-8940-5b047662fbec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\System\Cuda\Experimental">
+      <UniqueIdentifier>{11337507-a634-4288-a4da-d5cfb738ce5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\System\Cuda\Detail\Detail">
+      <UniqueIdentifier>{8bf5e47c-1d35-485a-83fc-f6287b24aaa7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\System\Cuda\Detail\B40c">
+      <UniqueIdentifier>{e8dfaff5-04fe-49fe-839f-a60a3ce47bce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\System\Detail\Adl">
+      <UniqueIdentifier>{08ad1024-825d-402b-90c2-bd729a74e04d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\System\Detail\Generic">
+      <UniqueIdentifier>{6ec1b37d-e203-4031-b245-0ff839aaee58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\System\Detail\Internal">
+      <UniqueIdentifier>{a1aae1cb-12b6-4297-8041-e3436d93216f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\System\Detail\Generic\Scalar">
+      <UniqueIdentifier>{62d5915b-8938-4f50-8c59-ea37a9ca2a18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\System\Detail\Internal\Scalar">
+      <UniqueIdentifier>{3a3824b5-b811-4121-b3a0-b7fbcbfcf748}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\System\Omp\Detail">
+      <UniqueIdentifier>{5b7e146f-3fbe-4e1d-abcd-f4c9d1d185c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\System\Tbb\Detail">
+      <UniqueIdentifier>{ef7f808e-fa91-4ca0-ae5b-4c80fa530c3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\System\Hpx\Detail">
+      <UniqueIdentifier>{a3e4d040-35e8-4757-8c14-6aca49504274}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\thrust\remove.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\replace.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\reverse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\scan.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\scatter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\sequence.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\set_operations.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\sort.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\swap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system_error.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\transform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\transform_reduce.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\transform_scan.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\tuple.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\uninitialized_copy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\uninitialized_fill.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\unique.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\adjacent_difference.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\advance.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\binary_search.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\copy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\count.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\device_allocator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\device_delete.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\device_free.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\device_malloc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\device_malloc_allocator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\device_new.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\device_new_allocator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\device_ptr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\device_reference.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\device_vector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\distance.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\equal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\extrema.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\fill.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\find.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\for_each.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\functional.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\gather.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\generate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\host_vector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\inner_product.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\logical.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\memory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\merge.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\mismatch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\pair.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\partition.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\random.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\reduce.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\detail\temporary_array.h">
+      <Filter>Header Files\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\detail\temporary_buffer.h">
+      <Filter>Header Files\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\detail\trivial_sequence.h">
+      <Filter>Header Files\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\detail\tuple_meta_transform.h">
+      <Filter>Header Files\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\detail\tuple_transform.h">
+      <Filter>Header Files\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\detail\type_traits.h">
+      <Filter>Header Files\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\detail\use_default.h">
+      <Filter>Header Files\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\detail\vector_base.h">
+      <Filter>Header Files\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\detail\casts.h">
+      <Filter>Header Files\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\detail\config.h">
+      <Filter>Header Files\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\detail\contiguous_storage.h">
+      <Filter>Header Files\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\detail\copy.h">
+      <Filter>Header Files\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\detail\copy_if.h">
+      <Filter>Header Files\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\detail\cstdint.h">
+      <Filter>Header Files\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\detail\diagnostic.h">
+      <Filter>Header Files\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\detail\dispatchable.h">
+      <Filter>Header Files\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\detail\function.h">
+      <Filter>Header Files\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\detail\integer_traits.h">
+      <Filter>Header Files\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\detail\internal_functional.h">
+      <Filter>Header Files\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\detail\malloc_and_free.h">
+      <Filter>Header Files\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\detail\minmax.h">
+      <Filter>Header Files\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\detail\numeric_traits.h">
+      <Filter>Header Files\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\detail\overlapped_copy.h">
+      <Filter>Header Files\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\detail\pointer.h">
+      <Filter>Header Files\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\detail\raw_pointer_cast.h">
+      <Filter>Header Files\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\detail\raw_reference_cast.h">
+      <Filter>Header Files\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\detail\reference.h">
+      <Filter>Header Files\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\detail\reference_forward_declaration.h">
+      <Filter>Header Files\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\detail\static_assert.h">
+      <Filter>Header Files\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\detail\swap.h">
+      <Filter>Header Files\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\detail\allocator\destroy_range.h">
+      <Filter>Header Files\Detail\Allocator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\detail\allocator\fill_construct_range.h">
+      <Filter>Header Files\Detail\Allocator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\detail\allocator\malloc_allocator.h">
+      <Filter>Header Files\Detail\Allocator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\detail\allocator\no_throw_allocator.h">
+      <Filter>Header Files\Detail\Allocator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\detail\allocator\tagged_allocator.h">
+      <Filter>Header Files\Detail\Allocator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\detail\allocator\temporary_allocator.h">
+      <Filter>Header Files\Detail\Allocator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\detail\allocator\allocator_traits.h">
+      <Filter>Header Files\Detail\Allocator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\detail\allocator\copy_construct_range.h">
+      <Filter>Header Files\Detail\Allocator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\detail\allocator\default_construct_range.h">
+      <Filter>Header Files\Detail\Allocator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\detail\config\device_system.h">
+      <Filter>Header Files\Detail\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\detail\config\forceinline.h">
+      <Filter>Header Files\Detail\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\detail\config\host_device.h">
+      <Filter>Header Files\Detail\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\detail\config\host_system.h">
+      <Filter>Header Files\Detail\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\detail\config\simple_defines.h">
+      <Filter>Header Files\Detail\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\detail\config\compiler.h">
+      <Filter>Header Files\Detail\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\detail\config\compiler_fence.h">
+      <Filter>Header Files\Detail\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\detail\config\config.h">
+      <Filter>Header Files\Detail\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\detail\config\debug.h">
+      <Filter>Header Files\Detail\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\detail\dispatch\is_trivial_copy.h">
+      <Filter>Header Files\Detail\Dispatch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\detail\functional\composite.h">
+      <Filter>Header Files\Detail\Functional</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\detail\functional\operators.h">
+      <Filter>Header Files\Detail\Functional</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\detail\functional\placeholder.h">
+      <Filter>Header Files\Detail\Functional</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\detail\functional\value.h">
+      <Filter>Header Files\Detail\Functional</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\detail\functional\actor.h">
+      <Filter>Header Files\Detail\Functional</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\detail\functional\argument.h">
+      <Filter>Header Files\Detail\Functional</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\detail\functional\operators\bitwise_operators.h">
+      <Filter>Header Files\Detail\Functional\Operators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\detail\functional\operators\compound_assignment_operators.h">
+      <Filter>Header Files\Detail\Functional\Operators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\detail\functional\operators\logical_operators.h">
+      <Filter>Header Files\Detail\Functional\Operators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\detail\functional\operators\operator_adaptors.h">
+      <Filter>Header Files\Detail\Functional\Operators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\detail\functional\operators\relational_operators.h">
+      <Filter>Header Files\Detail\Functional\Operators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\detail\functional\operators\arithmetic_operators.h">
+      <Filter>Header Files\Detail\Functional\Operators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\detail\functional\operators\assignment_operator.h">
+      <Filter>Header Files\Detail\Functional\Operators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\detail\mpl\math.h">
+      <Filter>Header Files\Detail\Mpl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\detail\range\tail_flags.h">
+      <Filter>Header Files\Detail\Range</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\detail\type_traits\is_call_possible.h">
+      <Filter>Header Files\Detail\Type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\detail\type_traits\is_metafunction_defined.h">
+      <Filter>Header Files\Detail\Type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\detail\type_traits\minimum_type.h">
+      <Filter>Header Files\Detail\Type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\detail\type_traits\pointer_traits.h">
+      <Filter>Header Files\Detail\Type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\detail\type_traits\result_of.h">
+      <Filter>Header Files\Detail\Type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\detail\type_traits\function_traits.h">
+      <Filter>Header Files\Detail\Type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\detail\type_traits\has_member_function.h">
+      <Filter>Header Files\Detail\Type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\detail\type_traits\has_nested_type.h">
+      <Filter>Header Files\Detail\Type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\detail\type_traits\has_trivial_assign.h">
+      <Filter>Header Files\Detail\Type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\detail\type_traits\algorithm\intermediate_type_from_function_and_iterators.h">
+      <Filter>Header Files\Detail\Type_traits\Algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\detail\type_traits\iterator\is_output_iterator.h">
+      <Filter>Header Files\Detail\Type_traits\Iterator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\detail\type_traits\iterator\is_discard_iterator.h">
+      <Filter>Header Files\Detail\Type_traits\Iterator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\detail\util\blocking.h">
+      <Filter>Header Files\Detail\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\detail\util\align.h">
+      <Filter>Header Files\Detail\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\iterator\iterator_traits.h">
+      <Filter>Header Files\Iterator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\iterator\permutation_iterator.h">
+      <Filter>Header Files\Iterator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\iterator\retag.h">
+      <Filter>Header Files\Iterator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\iterator\reverse_iterator.h">
+      <Filter>Header Files\Iterator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\iterator\transform_iterator.h">
+      <Filter>Header Files\Iterator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\iterator\zip_iterator.h">
+      <Filter>Header Files\Iterator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\iterator\constant_iterator.h">
+      <Filter>Header Files\Iterator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\iterator\counting_iterator.h">
+      <Filter>Header Files\Iterator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\iterator\discard_iterator.h">
+      <Filter>Header Files\Iterator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\iterator\iterator_adaptor.h">
+      <Filter>Header Files\Iterator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\iterator\iterator_categories.h">
+      <Filter>Header Files\Iterator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\iterator\iterator_facade.h">
+      <Filter>Header Files\Iterator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\iterator\detail\iterator_category_to_traversal.h">
+      <Filter>Header Files\Iterator\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\iterator\detail\iterator_facade_category.h">
+      <Filter>Header Files\Iterator\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\iterator\detail\iterator_traversal_tags.h">
+      <Filter>Header Files\Iterator\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\iterator\detail\minimum_category.h">
+      <Filter>Header Files\Iterator\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\iterator\detail\minimum_system.h">
+      <Filter>Header Files\Iterator\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\iterator\detail\normal_iterator.h">
+      <Filter>Header Files\Iterator\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\iterator\detail\permutation_iterator_base.h">
+      <Filter>Header Files\Iterator\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\iterator\detail\retag.h">
+      <Filter>Header Files\Iterator\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\iterator\detail\reverse_iterator_base.h">
+      <Filter>Header Files\Iterator\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\iterator\detail\tagged_iterator.h">
+      <Filter>Header Files\Iterator\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\iterator\detail\tuple_of_iterator_references.h">
+      <Filter>Header Files\Iterator\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\iterator\detail\universal_categories.h">
+      <Filter>Header Files\Iterator\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\iterator\detail\zip_iterator_base.h">
+      <Filter>Header Files\Iterator\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\iterator\detail\any_assign.h">
+      <Filter>Header Files\Iterator\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\iterator\detail\any_system_tag.h">
+      <Filter>Header Files\Iterator\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\iterator\detail\constant_iterator_base.h">
+      <Filter>Header Files\Iterator\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\iterator\detail\device_system_tag.h">
+      <Filter>Header Files\Iterator\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\iterator\detail\discard_iterator_base.h">
+      <Filter>Header Files\Iterator\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\iterator\detail\distance_from_result.h">
+      <Filter>Header Files\Iterator\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\iterator\detail\host_system_tag.h">
+      <Filter>Header Files\Iterator\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\iterator\detail\is_iterator_category.h">
+      <Filter>Header Files\Iterator\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\iterator\detail\is_trivial_iterator.h">
+      <Filter>Header Files\Iterator\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\iterator\detail\iterator_adaptor_base.h">
+      <Filter>Header Files\Iterator\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\iterator\detail\iterator_category_to_system.h">
+      <Filter>Header Files\Iterator\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\iterator\detail\placement\is_placed.h">
+      <Filter>Header Files\Iterator\Detail\Placement</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\random\subtract_with_carry_engine.h">
+      <Filter>Header Files\Random</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\random\uniform_int_distribution.h">
+      <Filter>Header Files\Random</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\random\uniform_real_distribution.h">
+      <Filter>Header Files\Random</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\random\xor_combine_engine.h">
+      <Filter>Header Files\Random</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\random\discard_block_engine.h">
+      <Filter>Header Files\Random</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\random\linear_congruential_engine.h">
+      <Filter>Header Files\Random</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\random\linear_feedback_shift_engine.h">
+      <Filter>Header Files\Random</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\random\normal_distribution.h">
+      <Filter>Header Files\Random</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\random\detail\normal_distribution_base.h">
+      <Filter>Header Files\Random\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\random\detail\random_core_access.h">
+      <Filter>Header Files\Random\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\random\detail\xor_combine_engine_max.h">
+      <Filter>Header Files\Random\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\random\detail\linear_congruential_engine_discard.h">
+      <Filter>Header Files\Random\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\random\detail\linear_feedback_shift_engine_wordmask.h">
+      <Filter>Header Files\Random\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\random\detail\mod.h">
+      <Filter>Header Files\Random\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\system_error.h">
+      <Filter>Header Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\error_code.h">
+      <Filter>Header Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\cpp\memory.h">
+      <Filter>Header Files\System\Cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\cpp\vector.h">
+      <Filter>Header Files\System\Cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\cpp\detail\scatter.h">
+      <Filter>Header Files\System\Cpp\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\cpp\detail\sequence.h">
+      <Filter>Header Files\System\Cpp\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\cpp\detail\set_operations.h">
+      <Filter>Header Files\System\Cpp\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\cpp\detail\sort.h">
+      <Filter>Header Files\System\Cpp\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\cpp\detail\swap_ranges.h">
+      <Filter>Header Files\System\Cpp\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\cpp\detail\tag.h">
+      <Filter>Header Files\System\Cpp\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\cpp\detail\temporary_buffer.h">
+      <Filter>Header Files\System\Cpp\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\cpp\detail\transform.h">
+      <Filter>Header Files\System\Cpp\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\cpp\detail\transform_reduce.h">
+      <Filter>Header Files\System\Cpp\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\cpp\detail\transform_scan.h">
+      <Filter>Header Files\System\Cpp\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\cpp\detail\uninitialized_copy.h">
+      <Filter>Header Files\System\Cpp\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\cpp\detail\uninitialized_fill.h">
+      <Filter>Header Files\System\Cpp\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\cpp\detail\unique.h">
+      <Filter>Header Files\System\Cpp\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\cpp\detail\unique_by_key.h">
+      <Filter>Header Files\System\Cpp\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\cpp\detail\adjacent_difference.h">
+      <Filter>Header Files\System\Cpp\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\cpp\detail\adl_targets.h">
+      <Filter>Header Files\System\Cpp\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\cpp\detail\advance.h">
+      <Filter>Header Files\System\Cpp\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\cpp\detail\assign_value.h">
+      <Filter>Header Files\System\Cpp\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\cpp\detail\binary_search.h">
+      <Filter>Header Files\System\Cpp\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\cpp\detail\copy.h">
+      <Filter>Header Files\System\Cpp\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\cpp\detail\copy_if.h">
+      <Filter>Header Files\System\Cpp\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\cpp\detail\count.h">
+      <Filter>Header Files\System\Cpp\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\cpp\detail\distance.h">
+      <Filter>Header Files\System\Cpp\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\cpp\detail\equal.h">
+      <Filter>Header Files\System\Cpp\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\cpp\detail\extrema.h">
+      <Filter>Header Files\System\Cpp\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\cpp\detail\fill.h">
+      <Filter>Header Files\System\Cpp\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\cpp\detail\find.h">
+      <Filter>Header Files\System\Cpp\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\cpp\detail\for_each.h">
+      <Filter>Header Files\System\Cpp\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\cpp\detail\gather.h">
+      <Filter>Header Files\System\Cpp\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\cpp\detail\generate.h">
+      <Filter>Header Files\System\Cpp\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\cpp\detail\get_value.h">
+      <Filter>Header Files\System\Cpp\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\cpp\detail\inner_product.h">
+      <Filter>Header Files\System\Cpp\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\cpp\detail\iter_swap.h">
+      <Filter>Header Files\System\Cpp\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\cpp\detail\logical.h">
+      <Filter>Header Files\System\Cpp\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\cpp\detail\malloc_and_free.h">
+      <Filter>Header Files\System\Cpp\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\cpp\detail\merge.h">
+      <Filter>Header Files\System\Cpp\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\cpp\detail\mismatch.h">
+      <Filter>Header Files\System\Cpp\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\cpp\detail\partition.h">
+      <Filter>Header Files\System\Cpp\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\cpp\detail\reduce.h">
+      <Filter>Header Files\System\Cpp\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\cpp\detail\reduce_by_key.h">
+      <Filter>Header Files\System\Cpp\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\cpp\detail\remove.h">
+      <Filter>Header Files\System\Cpp\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\cpp\detail\replace.h">
+      <Filter>Header Files\System\Cpp\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\cpp\detail\reverse.h">
+      <Filter>Header Files\System\Cpp\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\cpp\detail\scan.h">
+      <Filter>Header Files\System\Cpp\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\cpp\detail\scan_by_key.h">
+      <Filter>Header Files\System\Cpp\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\cpp\detail\dispatch\sort.h">
+      <Filter>Header Files\System\Cpp\Detail\Dispatch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\cuda\memory.h">
+      <Filter>Header Files\System\Cuda</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\cuda\vector.h">
+      <Filter>Header Files\System\Cuda</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\cuda\error.h">
+      <Filter>Header Files\System\Cuda</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\cuda\detail\sequence.h">
+      <Filter>Header Files\System\Cuda\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\cuda\detail\set_operations.h">
+      <Filter>Header Files\System\Cuda\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\cuda\detail\sort.h">
+      <Filter>Header Files\System\Cuda\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\cuda\detail\swap_ranges.h">
+      <Filter>Header Files\System\Cuda\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\cuda\detail\synchronize.h">
+      <Filter>Header Files\System\Cuda\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\cuda\detail\tag.h">
+      <Filter>Header Files\System\Cuda\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\cuda\detail\temporary_buffer.h">
+      <Filter>Header Files\System\Cuda\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\cuda\detail\transform.h">
+      <Filter>Header Files\System\Cuda\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\cuda\detail\transform_reduce.h">
+      <Filter>Header Files\System\Cuda\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\cuda\detail\transform_scan.h">
+      <Filter>Header Files\System\Cuda\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\cuda\detail\trivial_copy.h">
+      <Filter>Header Files\System\Cuda\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\cuda\detail\uninitialized_copy.h">
+      <Filter>Header Files\System\Cuda\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\cuda\detail\uninitialized_fill.h">
+      <Filter>Header Files\System\Cuda\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\cuda\detail\unique.h">
+      <Filter>Header Files\System\Cuda\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\cuda\detail\unique_by_key.h">
+      <Filter>Header Files\System\Cuda\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\cuda\detail\adjacent_difference.h">
+      <Filter>Header Files\System\Cuda\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\cuda\detail\adl_targets.h">
+      <Filter>Header Files\System\Cuda\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\cuda\detail\advance.h">
+      <Filter>Header Files\System\Cuda\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\cuda\detail\assign_value.h">
+      <Filter>Header Files\System\Cuda\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\cuda\detail\binary_search.h">
+      <Filter>Header Files\System\Cuda\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\cuda\detail\copy.h">
+      <Filter>Header Files\System\Cuda\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\cuda\detail\copy_cross_system.h">
+      <Filter>Header Files\System\Cuda\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\cuda\detail\copy_device_to_device.h">
+      <Filter>Header Files\System\Cuda\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\cuda\detail\copy_if.h">
+      <Filter>Header Files\System\Cuda\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\cuda\detail\count.h">
+      <Filter>Header Files\System\Cuda\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\cuda\detail\cuda_launch_config.h">
+      <Filter>Header Files\System\Cuda\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\cuda\detail\default_decomposition.h">
+      <Filter>Header Files\System\Cuda\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\cuda\detail\distance.h">
+      <Filter>Header Files\System\Cuda\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\cuda\detail\equal.h">
+      <Filter>Header Files\System\Cuda\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\cuda\detail\extern_shared_ptr.h">
+      <Filter>Header Files\System\Cuda\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\cuda\detail\extrema.h">
+      <Filter>Header Files\System\Cuda\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\cuda\detail\fill.h">
+      <Filter>Header Files\System\Cuda\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\cuda\detail\find.h">
+      <Filter>Header Files\System\Cuda\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\cuda\detail\for_each.h">
+      <Filter>Header Files\System\Cuda\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\cuda\detail\gather.h">
+      <Filter>Header Files\System\Cuda\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\cuda\detail\generate.h">
+      <Filter>Header Files\System\Cuda\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\cuda\detail\get_value.h">
+      <Filter>Header Files\System\Cuda\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\cuda\detail\guarded_cuda_runtime_api.h">
+      <Filter>Header Files\System\Cuda\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\cuda\detail\inner_product.h">
+      <Filter>Header Files\System\Cuda\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\cuda\detail\iter_swap.h">
+      <Filter>Header Files\System\Cuda\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\cuda\detail\logical.h">
+      <Filter>Header Files\System\Cuda\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\cuda\detail\malloc_and_free.h">
+      <Filter>Header Files\System\Cuda\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\cuda\detail\merge.h">
+      <Filter>Header Files\System\Cuda\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\cuda\detail\mismatch.h">
+      <Filter>Header Files\System\Cuda\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\cuda\detail\partition.h">
+      <Filter>Header Files\System\Cuda\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\cuda\detail\reduce.h">
+      <Filter>Header Files\System\Cuda\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\cuda\detail\reduce_by_key.h">
+      <Filter>Header Files\System\Cuda\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\cuda\detail\reduce_intervals.h">
+      <Filter>Header Files\System\Cuda\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\cuda\detail\remove.h">
+      <Filter>Header Files\System\Cuda\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\cuda\detail\replace.h">
+      <Filter>Header Files\System\Cuda\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\cuda\detail\reverse.h">
+      <Filter>Header Files\System\Cuda\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\cuda\detail\runtime_introspection.h">
+      <Filter>Header Files\System\Cuda\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\cuda\detail\scan.h">
+      <Filter>Header Files\System\Cuda\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\cuda\detail\scan_by_key.h">
+      <Filter>Header Files\System\Cuda\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\cuda\detail\scatter.h">
+      <Filter>Header Files\System\Cuda\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\cuda\detail\detail\launch_closure.h">
+      <Filter>Header Files\System\Cuda\Detail\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\cuda\detail\detail\rank_iterator.h">
+      <Filter>Header Files\System\Cuda\Detail\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\cuda\detail\detail\set_operation.h">
+      <Filter>Header Files\System\Cuda\Detail\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\cuda\detail\detail\split_for_set_operation.h">
+      <Filter>Header Files\System\Cuda\Detail\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\cuda\detail\detail\stable_merge_sort.h">
+      <Filter>Header Files\System\Cuda\Detail\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\cuda\detail\detail\stable_primitive_sort.h">
+      <Filter>Header Files\System\Cuda\Detail\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\cuda\detail\detail\stable_radix_sort.h">
+      <Filter>Header Files\System\Cuda\Detail\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\cuda\detail\detail\uninitialized.h">
+      <Filter>Header Files\System\Cuda\Detail\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\cuda\detail\detail\alignment.h">
+      <Filter>Header Files\System\Cuda\Detail\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\cuda\detail\detail\fast_scan.h">
+      <Filter>Header Files\System\Cuda\Detail\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\cuda\detail\detail\get_set_operation_splitter_ranks.h">
+      <Filter>Header Files\System\Cuda\Detail\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\cuda\detail\detail\launch_calculator.h">
+      <Filter>Header Files\System\Cuda\Detail\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\cuda\detail\detail\b40c\radixsort_key_conversion.h">
+      <Filter>Header Files\System\Cuda\Detail\B40c</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\cuda\detail\detail\b40c\radixsort_reduction_kernel.h">
+      <Filter>Header Files\System\Cuda\Detail\B40c</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\cuda\detail\detail\b40c\radixsort_scanscatter_kernel.h">
+      <Filter>Header Files\System\Cuda\Detail\B40c</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\cuda\detail\detail\b40c\radixsort_spine_kernel.h">
+      <Filter>Header Files\System\Cuda\Detail\B40c</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\cuda\detail\detail\b40c\vector_types.h">
+      <Filter>Header Files\System\Cuda\Detail\B40c</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\cuda\detail\detail\b40c\kernel_utils.h">
+      <Filter>Header Files\System\Cuda\Detail\B40c</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\cuda\detail\detail\b40c\radixsort_api.h">
+      <Filter>Header Files\System\Cuda\Detail\B40c</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\cuda\detail\detail\b40c\radixsort_kernel_common.h">
+      <Filter>Header Files\System\Cuda\Detail\B40c</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\cuda\experimental\pinned_allocator.h">
+      <Filter>Header Files\System\Cuda\Experimental</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\detail\errno.h">
+      <Filter>Header Files\System\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\detail\bad_alloc.h">
+      <Filter>Header Files\System\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\detail\adl\remove.h">
+      <Filter>Header Files\System\Detail\Adl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\detail\adl\replace.h">
+      <Filter>Header Files\System\Detail\Adl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\detail\adl\reverse.h">
+      <Filter>Header Files\System\Detail\Adl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\detail\adl\scan.h">
+      <Filter>Header Files\System\Detail\Adl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\detail\adl\scan_by_key.h">
+      <Filter>Header Files\System\Detail\Adl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\detail\adl\scatter.h">
+      <Filter>Header Files\System\Detail\Adl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\detail\adl\sequence.h">
+      <Filter>Header Files\System\Detail\Adl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\detail\adl\set_operations.h">
+      <Filter>Header Files\System\Detail\Adl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\detail\adl\sort.h">
+      <Filter>Header Files\System\Detail\Adl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\detail\adl\swap_ranges.h">
+      <Filter>Header Files\System\Detail\Adl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\detail\adl\temporary_buffer.h">
+      <Filter>Header Files\System\Detail\Adl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\detail\adl\transform.h">
+      <Filter>Header Files\System\Detail\Adl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\detail\adl\transform_reduce.h">
+      <Filter>Header Files\System\Detail\Adl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\detail\adl\transform_scan.h">
+      <Filter>Header Files\System\Detail\Adl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\detail\adl\uninitialized_copy.h">
+      <Filter>Header Files\System\Detail\Adl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\detail\adl\uninitialized_fill.h">
+      <Filter>Header Files\System\Detail\Adl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\detail\adl\unique.h">
+      <Filter>Header Files\System\Detail\Adl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\detail\adl\unique_by_key.h">
+      <Filter>Header Files\System\Detail\Adl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\detail\adl\adjacent_difference.h">
+      <Filter>Header Files\System\Detail\Adl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\detail\adl\advance.h">
+      <Filter>Header Files\System\Detail\Adl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\detail\adl\assign_value.h">
+      <Filter>Header Files\System\Detail\Adl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\detail\adl\binary_search.h">
+      <Filter>Header Files\System\Detail\Adl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\detail\adl\copy.h">
+      <Filter>Header Files\System\Detail\Adl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\detail\adl\copy_if.h">
+      <Filter>Header Files\System\Detail\Adl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\detail\adl\count.h">
+      <Filter>Header Files\System\Detail\Adl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\detail\adl\distance.h">
+      <Filter>Header Files\System\Detail\Adl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\detail\adl\equal.h">
+      <Filter>Header Files\System\Detail\Adl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\detail\adl\extrema.h">
+      <Filter>Header Files\System\Detail\Adl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\detail\adl\fill.h">
+      <Filter>Header Files\System\Detail\Adl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\detail\adl\find.h">
+      <Filter>Header Files\System\Detail\Adl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\detail\adl\for_each.h">
+      <Filter>Header Files\System\Detail\Adl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\detail\adl\gather.h">
+      <Filter>Header Files\System\Detail\Adl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\detail\adl\generate.h">
+      <Filter>Header Files\System\Detail\Adl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\detail\adl\get_value.h">
+      <Filter>Header Files\System\Detail\Adl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\detail\adl\inner_product.h">
+      <Filter>Header Files\System\Detail\Adl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\detail\adl\iter_swap.h">
+      <Filter>Header Files\System\Detail\Adl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\detail\adl\logical.h">
+      <Filter>Header Files\System\Detail\Adl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\detail\adl\malloc_and_free.h">
+      <Filter>Header Files\System\Detail\Adl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\detail\adl\merge.h">
+      <Filter>Header Files\System\Detail\Adl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\detail\adl\mismatch.h">
+      <Filter>Header Files\System\Detail\Adl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\detail\adl\partition.h">
+      <Filter>Header Files\System\Detail\Adl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\detail\adl\reduce.h">
+      <Filter>Header Files\System\Detail\Adl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\detail\adl\reduce_by_key.h">
+      <Filter>Header Files\System\Detail\Adl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\detail\generic\transform_scan.h">
+      <Filter>Header Files\System\Detail\Generic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\detail\generic\type_traits.h">
+      <Filter>Header Files\System\Detail\Generic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\detail\generic\uninitialized_copy.h">
+      <Filter>Header Files\System\Detail\Generic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\detail\generic\uninitialized_fill.h">
+      <Filter>Header Files\System\Detail\Generic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\detail\generic\unique.h">
+      <Filter>Header Files\System\Detail\Generic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\detail\generic\unique_by_key.h">
+      <Filter>Header Files\System\Detail\Generic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\detail\generic\adjacent_difference.h">
+      <Filter>Header Files\System\Detail\Generic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\detail\generic\advance.h">
+      <Filter>Header Files\System\Detail\Generic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\detail\generic\binary_search.h">
+      <Filter>Header Files\System\Detail\Generic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\detail\generic\copy.h">
+      <Filter>Header Files\System\Detail\Generic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\detail\generic\copy_if.h">
+      <Filter>Header Files\System\Detail\Generic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\detail\generic\count.h">
+      <Filter>Header Files\System\Detail\Generic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\detail\generic\distance.h">
+      <Filter>Header Files\System\Detail\Generic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\detail\generic\equal.h">
+      <Filter>Header Files\System\Detail\Generic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\detail\generic\extrema.h">
+      <Filter>Header Files\System\Detail\Generic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\detail\generic\fill.h">
+      <Filter>Header Files\System\Detail\Generic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\detail\generic\find.h">
+      <Filter>Header Files\System\Detail\Generic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\detail\generic\for_each.h">
+      <Filter>Header Files\System\Detail\Generic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\detail\generic\gather.h">
+      <Filter>Header Files\System\Detail\Generic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\detail\generic\generate.h">
+      <Filter>Header Files\System\Detail\Generic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\detail\generic\inner_product.h">
+      <Filter>Header Files\System\Detail\Generic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\detail\generic\logical.h">
+      <Filter>Header Files\System\Detail\Generic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\detail\generic\memory.h">
+      <Filter>Header Files\System\Detail\Generic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\detail\generic\merge.h">
+      <Filter>Header Files\System\Detail\Generic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\detail\generic\mismatch.h">
+      <Filter>Header Files\System\Detail\Generic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\detail\generic\partition.h">
+      <Filter>Header Files\System\Detail\Generic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\detail\generic\reduce.h">
+      <Filter>Header Files\System\Detail\Generic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\detail\generic\reduce_by_key.h">
+      <Filter>Header Files\System\Detail\Generic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\detail\generic\remove.h">
+      <Filter>Header Files\System\Detail\Generic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\detail\generic\replace.h">
+      <Filter>Header Files\System\Detail\Generic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\detail\generic\reverse.h">
+      <Filter>Header Files\System\Detail\Generic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\detail\generic\scan.h">
+      <Filter>Header Files\System\Detail\Generic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\detail\generic\scan_by_key.h">
+      <Filter>Header Files\System\Detail\Generic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\detail\generic\scatter.h">
+      <Filter>Header Files\System\Detail\Generic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\detail\generic\select_system.h">
+      <Filter>Header Files\System\Detail\Generic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\detail\generic\sequence.h">
+      <Filter>Header Files\System\Detail\Generic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\detail\generic\set_operations.h">
+      <Filter>Header Files\System\Detail\Generic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\detail\generic\sort.h">
+      <Filter>Header Files\System\Detail\Generic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\detail\generic\swap_ranges.h">
+      <Filter>Header Files\System\Detail\Generic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\detail\generic\tag.h">
+      <Filter>Header Files\System\Detail\Generic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\detail\generic\temporary_buffer.h">
+      <Filter>Header Files\System\Detail\Generic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\detail\generic\transform.h">
+      <Filter>Header Files\System\Detail\Generic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\detail\generic\transform_reduce.h">
+      <Filter>Header Files\System\Detail\Generic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\detail\generic\scalar\select.h">
+      <Filter>Header Files\System\Detail\Generic\Scalar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\detail\generic\scalar\binary_search.h">
+      <Filter>Header Files\System\Detail\Generic\Scalar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\detail\internal\decompose.h">
+      <Filter>Header Files\System\Detail\Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\detail\internal\scalar\reduce.h">
+      <Filter>Header Files\System\Detail\Internal\Scalar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\detail\internal\scalar\reduce_by_key.h">
+      <Filter>Header Files\System\Detail\Internal\Scalar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\detail\internal\scalar\remove.h">
+      <Filter>Header Files\System\Detail\Internal\Scalar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\detail\internal\scalar\scan.h">
+      <Filter>Header Files\System\Detail\Internal\Scalar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\detail\internal\scalar\scan_by_key.h">
+      <Filter>Header Files\System\Detail\Internal\Scalar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\detail\internal\scalar\set_operations.h">
+      <Filter>Header Files\System\Detail\Internal\Scalar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\detail\internal\scalar\sort.h">
+      <Filter>Header Files\System\Detail\Internal\Scalar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\detail\internal\scalar\stable_merge_sort.h">
+      <Filter>Header Files\System\Detail\Internal\Scalar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\detail\internal\scalar\stable_primitive_sort.h">
+      <Filter>Header Files\System\Detail\Internal\Scalar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\detail\internal\scalar\stable_radix_sort.h">
+      <Filter>Header Files\System\Detail\Internal\Scalar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\detail\internal\scalar\trivial_copy.h">
+      <Filter>Header Files\System\Detail\Internal\Scalar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\detail\internal\scalar\unique.h">
+      <Filter>Header Files\System\Detail\Internal\Scalar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\detail\internal\scalar\unique_by_key.h">
+      <Filter>Header Files\System\Detail\Internal\Scalar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\detail\internal\scalar\adjacent_difference.h">
+      <Filter>Header Files\System\Detail\Internal\Scalar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\detail\internal\scalar\binary_search.h">
+      <Filter>Header Files\System\Detail\Internal\Scalar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\detail\internal\scalar\copy.h">
+      <Filter>Header Files\System\Detail\Internal\Scalar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\detail\internal\scalar\copy_backward.h">
+      <Filter>Header Files\System\Detail\Internal\Scalar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\detail\internal\scalar\copy_if.h">
+      <Filter>Header Files\System\Detail\Internal\Scalar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\detail\internal\scalar\extrema.h">
+      <Filter>Header Files\System\Detail\Internal\Scalar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\detail\internal\scalar\find.h">
+      <Filter>Header Files\System\Detail\Internal\Scalar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\detail\internal\scalar\for_each.h">
+      <Filter>Header Files\System\Detail\Internal\Scalar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\detail\internal\scalar\general_copy.h">
+      <Filter>Header Files\System\Detail\Internal\Scalar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\detail\internal\scalar\insertion_sort.h">
+      <Filter>Header Files\System\Detail\Internal\Scalar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\detail\internal\scalar\merge.h">
+      <Filter>Header Files\System\Detail\Internal\Scalar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\detail\internal\scalar\partition.h">
+      <Filter>Header Files\System\Detail\Internal\Scalar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\omp\vector.h">
+      <Filter>Header Files\System\Omp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\omp\memory.h">
+      <Filter>Header Files\System\Omp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\omp\detail\scatter.h">
+      <Filter>Header Files\System\Omp\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\omp\detail\sequence.h">
+      <Filter>Header Files\System\Omp\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\omp\detail\set_operations.h">
+      <Filter>Header Files\System\Omp\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\omp\detail\sort.h">
+      <Filter>Header Files\System\Omp\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\omp\detail\swap_ranges.h">
+      <Filter>Header Files\System\Omp\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\omp\detail\tag.h">
+      <Filter>Header Files\System\Omp\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\omp\detail\temporary_buffer.h">
+      <Filter>Header Files\System\Omp\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\omp\detail\transform.h">
+      <Filter>Header Files\System\Omp\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\omp\detail\transform_reduce.h">
+      <Filter>Header Files\System\Omp\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\omp\detail\transform_scan.h">
+      <Filter>Header Files\System\Omp\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\omp\detail\uninitialized_copy.h">
+      <Filter>Header Files\System\Omp\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\omp\detail\uninitialized_fill.h">
+      <Filter>Header Files\System\Omp\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\omp\detail\unique.h">
+      <Filter>Header Files\System\Omp\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\omp\detail\unique_by_key.h">
+      <Filter>Header Files\System\Omp\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\omp\detail\adjacent_difference.h">
+      <Filter>Header Files\System\Omp\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\omp\detail\adl_targets.h">
+      <Filter>Header Files\System\Omp\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\omp\detail\advance.h">
+      <Filter>Header Files\System\Omp\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\omp\detail\assign_value.h">
+      <Filter>Header Files\System\Omp\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\omp\detail\binary_search.h">
+      <Filter>Header Files\System\Omp\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\omp\detail\copy.h">
+      <Filter>Header Files\System\Omp\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\omp\detail\copy_if.h">
+      <Filter>Header Files\System\Omp\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\omp\detail\count.h">
+      <Filter>Header Files\System\Omp\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\omp\detail\default_decomposition.h">
+      <Filter>Header Files\System\Omp\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\omp\detail\distance.h">
+      <Filter>Header Files\System\Omp\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\omp\detail\equal.h">
+      <Filter>Header Files\System\Omp\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\omp\detail\extrema.h">
+      <Filter>Header Files\System\Omp\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\omp\detail\fill.h">
+      <Filter>Header Files\System\Omp\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\omp\detail\find.h">
+      <Filter>Header Files\System\Omp\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\omp\detail\for_each.h">
+      <Filter>Header Files\System\Omp\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\omp\detail\gather.h">
+      <Filter>Header Files\System\Omp\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\omp\detail\generate.h">
+      <Filter>Header Files\System\Omp\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\omp\detail\get_value.h">
+      <Filter>Header Files\System\Omp\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\omp\detail\inner_product.h">
+      <Filter>Header Files\System\Omp\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\omp\detail\iter_swap.h">
+      <Filter>Header Files\System\Omp\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\omp\detail\logical.h">
+      <Filter>Header Files\System\Omp\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\omp\detail\malloc_and_free.h">
+      <Filter>Header Files\System\Omp\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\omp\detail\merge.h">
+      <Filter>Header Files\System\Omp\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\omp\detail\mismatch.h">
+      <Filter>Header Files\System\Omp\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\omp\detail\partition.h">
+      <Filter>Header Files\System\Omp\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\omp\detail\reduce.h">
+      <Filter>Header Files\System\Omp\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\omp\detail\reduce_by_key.h">
+      <Filter>Header Files\System\Omp\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\omp\detail\reduce_intervals.h">
+      <Filter>Header Files\System\Omp\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\omp\detail\remove.h">
+      <Filter>Header Files\System\Omp\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\omp\detail\replace.h">
+      <Filter>Header Files\System\Omp\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\omp\detail\reverse.h">
+      <Filter>Header Files\System\Omp\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\omp\detail\scan.h">
+      <Filter>Header Files\System\Omp\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\omp\detail\scan_by_key.h">
+      <Filter>Header Files\System\Omp\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\tbb\vector.h">
+      <Filter>Header Files\System\Tbb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\tbb\memory.h">
+      <Filter>Header Files\System\Tbb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\tbb\detail\sort.h">
+      <Filter>Header Files\System\Tbb\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\tbb\detail\swap_ranges.h">
+      <Filter>Header Files\System\Tbb\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\tbb\detail\tag.h">
+      <Filter>Header Files\System\Tbb\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\tbb\detail\temporary_buffer.h">
+      <Filter>Header Files\System\Tbb\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\tbb\detail\transform.h">
+      <Filter>Header Files\System\Tbb\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\tbb\detail\transform_reduce.h">
+      <Filter>Header Files\System\Tbb\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\tbb\detail\transform_scan.h">
+      <Filter>Header Files\System\Tbb\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\tbb\detail\uninitialized_copy.h">
+      <Filter>Header Files\System\Tbb\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\tbb\detail\uninitialized_fill.h">
+      <Filter>Header Files\System\Tbb\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\tbb\detail\unique.h">
+      <Filter>Header Files\System\Tbb\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\tbb\detail\unique_by_key.h">
+      <Filter>Header Files\System\Tbb\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\tbb\detail\adjacent_difference.h">
+      <Filter>Header Files\System\Tbb\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\tbb\detail\adl_targets.h">
+      <Filter>Header Files\System\Tbb\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\tbb\detail\advance.h">
+      <Filter>Header Files\System\Tbb\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\tbb\detail\assign_value.h">
+      <Filter>Header Files\System\Tbb\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\tbb\detail\binary_search.h">
+      <Filter>Header Files\System\Tbb\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\tbb\detail\copy.h">
+      <Filter>Header Files\System\Tbb\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\tbb\detail\copy_if.h">
+      <Filter>Header Files\System\Tbb\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\tbb\detail\count.h">
+      <Filter>Header Files\System\Tbb\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\tbb\detail\distance.h">
+      <Filter>Header Files\System\Tbb\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\tbb\detail\equal.h">
+      <Filter>Header Files\System\Tbb\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\tbb\detail\extrema.h">
+      <Filter>Header Files\System\Tbb\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\tbb\detail\fill.h">
+      <Filter>Header Files\System\Tbb\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\tbb\detail\find.h">
+      <Filter>Header Files\System\Tbb\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\tbb\detail\for_each.h">
+      <Filter>Header Files\System\Tbb\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\tbb\detail\gather.h">
+      <Filter>Header Files\System\Tbb\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\tbb\detail\generate.h">
+      <Filter>Header Files\System\Tbb\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\tbb\detail\get_value.h">
+      <Filter>Header Files\System\Tbb\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\tbb\detail\inner_product.h">
+      <Filter>Header Files\System\Tbb\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\tbb\detail\iter_swap.h">
+      <Filter>Header Files\System\Tbb\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\tbb\detail\logical.h">
+      <Filter>Header Files\System\Tbb\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\tbb\detail\malloc_and_free.h">
+      <Filter>Header Files\System\Tbb\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\tbb\detail\merge.h">
+      <Filter>Header Files\System\Tbb\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\tbb\detail\mismatch.h">
+      <Filter>Header Files\System\Tbb\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\tbb\detail\partition.h">
+      <Filter>Header Files\System\Tbb\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\tbb\detail\reduce.h">
+      <Filter>Header Files\System\Tbb\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\tbb\detail\reduce_by_key.h">
+      <Filter>Header Files\System\Tbb\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\tbb\detail\reduce_intervals.h">
+      <Filter>Header Files\System\Tbb\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\tbb\detail\remove.h">
+      <Filter>Header Files\System\Tbb\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\tbb\detail\replace.h">
+      <Filter>Header Files\System\Tbb\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\tbb\detail\reverse.h">
+      <Filter>Header Files\System\Tbb\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\tbb\detail\scan.h">
+      <Filter>Header Files\System\Tbb\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\tbb\detail\scan_by_key.h">
+      <Filter>Header Files\System\Tbb\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\tbb\detail\scatter.h">
+      <Filter>Header Files\System\Tbb\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\tbb\detail\sequence.h">
+      <Filter>Header Files\System\Tbb\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\tbb\detail\set_operations.h">
+      <Filter>Header Files\System\Tbb\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\hpx\detail\tag.h">
+      <Filter>Header Files\System\Hpx\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\hpx\memory.h">
+      <Filter>Header Files\System\Hpx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\hpx\vector.h">
+      <Filter>Header Files\System\Hpx</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\thrust\detail\swap_ranges.inl">
+      <Filter>Header Files\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\detail\temporary_array.inl">
+      <Filter>Header Files\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\detail\transform.inl">
+      <Filter>Header Files\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\detail\transform_reduce.inl">
+      <Filter>Header Files\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\detail\transform_scan.inl">
+      <Filter>Header Files\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\detail\tuple.inl">
+      <Filter>Header Files\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\detail\uninitialized_copy.inl">
+      <Filter>Header Files\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\detail\uninitialized_fill.inl">
+      <Filter>Header Files\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\detail\unique.inl">
+      <Filter>Header Files\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\detail\vector_base.inl">
+      <Filter>Header Files\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\detail\adjacent_difference.inl">
+      <Filter>Header Files\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\detail\advance.inl">
+      <Filter>Header Files\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\detail\binary_search.inl">
+      <Filter>Header Files\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\detail\contiguous_storage.inl">
+      <Filter>Header Files\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\detail\copy.inl">
+      <Filter>Header Files\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\detail\copy_if.inl">
+      <Filter>Header Files\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\detail\count.inl">
+      <Filter>Header Files\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\detail\device_delete.inl">
+      <Filter>Header Files\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\detail\device_free.inl">
+      <Filter>Header Files\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\detail\device_malloc.inl">
+      <Filter>Header Files\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\detail\device_new.inl">
+      <Filter>Header Files\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\detail\device_ptr.inl">
+      <Filter>Header Files\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\detail\device_reference.inl">
+      <Filter>Header Files\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\detail\device_vector.inl">
+      <Filter>Header Files\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\detail\distance.inl">
+      <Filter>Header Files\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\detail\equal.inl">
+      <Filter>Header Files\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\detail\extrema.inl">
+      <Filter>Header Files\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\detail\fill.inl">
+      <Filter>Header Files\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\detail\find.inl">
+      <Filter>Header Files\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\detail\for_each.inl">
+      <Filter>Header Files\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\detail\functional.inl">
+      <Filter>Header Files\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\detail\gather.inl">
+      <Filter>Header Files\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\detail\generate.inl">
+      <Filter>Header Files\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\detail\host_vector.inl">
+      <Filter>Header Files\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\detail\inner_product.inl">
+      <Filter>Header Files\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\detail\logical.inl">
+      <Filter>Header Files\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\detail\merge.inl">
+      <Filter>Header Files\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\detail\mismatch.inl">
+      <Filter>Header Files\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\detail\pair.inl">
+      <Filter>Header Files\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\detail\partition.inl">
+      <Filter>Header Files\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\detail\pointer.inl">
+      <Filter>Header Files\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\detail\raw_reference_cast.inl">
+      <Filter>Header Files\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\detail\reduce.inl">
+      <Filter>Header Files\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\detail\reference.inl">
+      <Filter>Header Files\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\detail\remove.inl">
+      <Filter>Header Files\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\detail\replace.inl">
+      <Filter>Header Files\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\detail\reverse.inl">
+      <Filter>Header Files\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\detail\scan.inl">
+      <Filter>Header Files\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\detail\scatter.inl">
+      <Filter>Header Files\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\detail\sequence.inl">
+      <Filter>Header Files\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\detail\set_operations.inl">
+      <Filter>Header Files\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\detail\sort.inl">
+      <Filter>Header Files\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\detail\swap.inl">
+      <Filter>Header Files\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\detail\allocator\default_construct_range.inl">
+      <Filter>Header Files\Detail\Allocator</Filter>
+    </None>
+    <None Include="..\..\thrust\detail\allocator\destroy_range.inl">
+      <Filter>Header Files\Detail\Allocator</Filter>
+    </None>
+    <None Include="..\..\thrust\detail\allocator\fill_construct_range.inl">
+      <Filter>Header Files\Detail\Allocator</Filter>
+    </None>
+    <None Include="..\..\thrust\detail\allocator\malloc_allocator.inl">
+      <Filter>Header Files\Detail\Allocator</Filter>
+    </None>
+    <None Include="..\..\thrust\detail\allocator\tagged_allocator.inl">
+      <Filter>Header Files\Detail\Allocator</Filter>
+    </None>
+    <None Include="..\..\thrust\detail\allocator\temporary_allocator.inl">
+      <Filter>Header Files\Detail\Allocator</Filter>
+    </None>
+    <None Include="..\..\thrust\detail\allocator\allocator_traits.inl">
+      <Filter>Header Files\Detail\Allocator</Filter>
+    </None>
+    <None Include="..\..\thrust\detail\allocator\copy_construct_range.inl">
+      <Filter>Header Files\Detail\Allocator</Filter>
+    </None>
+    <None Include="..\..\thrust\detail\functional\actor.inl">
+      <Filter>Header Files\Detail\Functional</Filter>
+    </None>
+    <None Include="..\..\thrust\iterator\detail\iterator_traits.inl">
+      <Filter>Header Files\Iterator\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\iterator\detail\reverse_iterator.inl">
+      <Filter>Header Files\Iterator\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\iterator\detail\transform_iterator.inl">
+      <Filter>Header Files\Iterator\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\iterator\detail\zip_iterator.inl">
+      <Filter>Header Files\Iterator\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\iterator\detail\counting_iterator.inl">
+      <Filter>Header Files\Iterator\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\random\detail\subtract_with_carry_engine.inl">
+      <Filter>Header Files\Random\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\random\detail\uniform_int_distribution.inl">
+      <Filter>Header Files\Random\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\random\detail\uniform_real_distribution.inl">
+      <Filter>Header Files\Random\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\random\detail\xor_combine_engine.inl">
+      <Filter>Header Files\Random\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\random\detail\discard_block_engine.inl">
+      <Filter>Header Files\Random\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\random\detail\linear_congruential_engine.inl">
+      <Filter>Header Files\Random\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\random\detail\linear_feedback_shift_engine.inl">
+      <Filter>Header Files\Random\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\random\detail\normal_distribution.inl">
+      <Filter>Header Files\Random\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\system\cpp\detail\vector.inl">
+      <Filter>Header Files\System\Cpp\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\system\cpp\detail\memory.inl">
+      <Filter>Header Files\System\Cpp\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\system\cuda\detail\set_difference.inl">
+      <Filter>Header Files\System\Cuda\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\system\cuda\detail\set_intersection.inl">
+      <Filter>Header Files\System\Cuda\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\system\cuda\detail\set_symmetric_difference.inl">
+      <Filter>Header Files\System\Cuda\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\system\cuda\detail\set_union.inl">
+      <Filter>Header Files\System\Cuda\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\system\cuda\detail\sort.inl">
+      <Filter>Header Files\System\Cuda\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\system\cuda\detail\synchronize.inl">
+      <Filter>Header Files\System\Cuda\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\system\cuda\detail\trivial_copy.inl">
+      <Filter>Header Files\System\Cuda\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\system\cuda\detail\vector.inl">
+      <Filter>Header Files\System\Cuda\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\system\cuda\detail\adjacent_difference.inl">
+      <Filter>Header Files\System\Cuda\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\system\cuda\detail\copy.inl">
+      <Filter>Header Files\System\Cuda\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\system\cuda\detail\copy_cross_system.inl">
+      <Filter>Header Files\System\Cuda\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\system\cuda\detail\copy_device_to_device.inl">
+      <Filter>Header Files\System\Cuda\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\system\cuda\detail\copy_if.inl">
+      <Filter>Header Files\System\Cuda\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\system\cuda\detail\default_decomposition.inl">
+      <Filter>Header Files\System\Cuda\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\system\cuda\detail\error.inl">
+      <Filter>Header Files\System\Cuda\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\system\cuda\detail\fill.inl">
+      <Filter>Header Files\System\Cuda\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\system\cuda\detail\for_each.inl">
+      <Filter>Header Files\System\Cuda\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\system\cuda\detail\memory.inl">
+      <Filter>Header Files\System\Cuda\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\system\cuda\detail\merge.inl">
+      <Filter>Header Files\System\Cuda\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\system\cuda\detail\reduce.inl">
+      <Filter>Header Files\System\Cuda\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\system\cuda\detail\reduce_by_key.inl">
+      <Filter>Header Files\System\Cuda\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\system\cuda\detail\reduce_intervals.inl">
+      <Filter>Header Files\System\Cuda\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\system\cuda\detail\runtime_introspection.inl">
+      <Filter>Header Files\System\Cuda\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\system\cuda\detail\scan.inl">
+      <Filter>Header Files\System\Cuda\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\system\cuda\detail\detail\launch_calculator.inl">
+      <Filter>Header Files\System\Cuda\Detail\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\system\cuda\detail\detail\launch_closure.inl">
+      <Filter>Header Files\System\Cuda\Detail\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\system\cuda\detail\detail\set_operation.inl">
+      <Filter>Header Files\System\Cuda\Detail\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\system\cuda\detail\detail\split_for_set_operation.inl">
+      <Filter>Header Files\System\Cuda\Detail\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\system\cuda\detail\detail\stable_merge_sort.inl">
+      <Filter>Header Files\System\Cuda\Detail\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\system\cuda\detail\detail\stable_primitive_sort.inl">
+      <Filter>Header Files\System\Cuda\Detail\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\system\cuda\detail\detail\stable_radix_sort.inl">
+      <Filter>Header Files\System\Cuda\Detail\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\system\cuda\detail\detail\fast_scan.inl">
+      <Filter>Header Files\System\Cuda\Detail\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\system\cuda\detail\detail\get_set_operation_splitter_ranks.inl">
+      <Filter>Header Files\System\Cuda\Detail\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\system\detail\error_category.inl">
+      <Filter>Header Files\System\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\system\detail\error_code.inl">
+      <Filter>Header Files\System\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\system\detail\error_condition.inl">
+      <Filter>Header Files\System\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\system\detail\system_error.inl">
+      <Filter>Header Files\System\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\system\detail\generic\transform_scan.inl">
+      <Filter>Header Files\System\Detail\Generic</Filter>
+    </None>
+    <None Include="..\..\thrust\system\detail\generic\uninitialized_copy.inl">
+      <Filter>Header Files\System\Detail\Generic</Filter>
+    </None>
+    <None Include="..\..\thrust\system\detail\generic\uninitialized_fill.inl">
+      <Filter>Header Files\System\Detail\Generic</Filter>
+    </None>
+    <None Include="..\..\thrust\system\detail\generic\unique.inl">
+      <Filter>Header Files\System\Detail\Generic</Filter>
+    </None>
+    <None Include="..\..\thrust\system\detail\generic\unique_by_key.inl">
+      <Filter>Header Files\System\Detail\Generic</Filter>
+    </None>
+    <None Include="..\..\thrust\system\detail\generic\adjacent_difference.inl">
+      <Filter>Header Files\System\Detail\Generic</Filter>
+    </None>
+    <None Include="..\..\thrust\system\detail\generic\advance.inl">
+      <Filter>Header Files\System\Detail\Generic</Filter>
+    </None>
+    <None Include="..\..\thrust\system\detail\generic\binary_search.inl">
+      <Filter>Header Files\System\Detail\Generic</Filter>
+    </None>
+    <None Include="..\..\thrust\system\detail\generic\copy.inl">
+      <Filter>Header Files\System\Detail\Generic</Filter>
+    </None>
+    <None Include="..\..\thrust\system\detail\generic\copy_if.inl">
+      <Filter>Header Files\System\Detail\Generic</Filter>
+    </None>
+    <None Include="..\..\thrust\system\detail\generic\count.inl">
+      <Filter>Header Files\System\Detail\Generic</Filter>
+    </None>
+    <None Include="..\..\thrust\system\detail\generic\distance.inl">
+      <Filter>Header Files\System\Detail\Generic</Filter>
+    </None>
+    <None Include="..\..\thrust\system\detail\generic\equal.inl">
+      <Filter>Header Files\System\Detail\Generic</Filter>
+    </None>
+    <None Include="..\..\thrust\system\detail\generic\extrema.inl">
+      <Filter>Header Files\System\Detail\Generic</Filter>
+    </None>
+    <None Include="..\..\thrust\system\detail\generic\find.inl">
+      <Filter>Header Files\System\Detail\Generic</Filter>
+    </None>
+    <None Include="..\..\thrust\system\detail\generic\gather.inl">
+      <Filter>Header Files\System\Detail\Generic</Filter>
+    </None>
+    <None Include="..\..\thrust\system\detail\generic\generate.inl">
+      <Filter>Header Files\System\Detail\Generic</Filter>
+    </None>
+    <None Include="..\..\thrust\system\detail\generic\inner_product.inl">
+      <Filter>Header Files\System\Detail\Generic</Filter>
+    </None>
+    <None Include="..\..\thrust\system\detail\generic\memory.inl">
+      <Filter>Header Files\System\Detail\Generic</Filter>
+    </None>
+    <None Include="..\..\thrust\system\detail\generic\merge.inl">
+      <Filter>Header Files\System\Detail\Generic</Filter>
+    </None>
+    <None Include="..\..\thrust\system\detail\generic\mismatch.inl">
+      <Filter>Header Files\System\Detail\Generic</Filter>
+    </None>
+    <None Include="..\..\thrust\system\detail\generic\partition.inl">
+      <Filter>Header Files\System\Detail\Generic</Filter>
+    </None>
+    <None Include="..\..\thrust\system\detail\generic\reduce.inl">
+      <Filter>Header Files\System\Detail\Generic</Filter>
+    </None>
+    <None Include="..\..\thrust\system\detail\generic\reduce_by_key.inl">
+      <Filter>Header Files\System\Detail\Generic</Filter>
+    </None>
+    <None Include="..\..\thrust\system\detail\generic\remove.inl">
+      <Filter>Header Files\System\Detail\Generic</Filter>
+    </None>
+    <None Include="..\..\thrust\system\detail\generic\replace.inl">
+      <Filter>Header Files\System\Detail\Generic</Filter>
+    </None>
+    <None Include="..\..\thrust\system\detail\generic\reverse.inl">
+      <Filter>Header Files\System\Detail\Generic</Filter>
+    </None>
+    <None Include="..\..\thrust\system\detail\generic\scan.inl">
+      <Filter>Header Files\System\Detail\Generic</Filter>
+    </None>
+    <None Include="..\..\thrust\system\detail\generic\scan_by_key.inl">
+      <Filter>Header Files\System\Detail\Generic</Filter>
+    </None>
+    <None Include="..\..\thrust\system\detail\generic\scatter.inl">
+      <Filter>Header Files\System\Detail\Generic</Filter>
+    </None>
+    <None Include="..\..\thrust\system\detail\generic\sequence.inl">
+      <Filter>Header Files\System\Detail\Generic</Filter>
+    </None>
+    <None Include="..\..\thrust\system\detail\generic\set_operations.inl">
+      <Filter>Header Files\System\Detail\Generic</Filter>
+    </None>
+    <None Include="..\..\thrust\system\detail\generic\sort.inl">
+      <Filter>Header Files\System\Detail\Generic</Filter>
+    </None>
+    <None Include="..\..\thrust\system\detail\generic\swap_ranges.inl">
+      <Filter>Header Files\System\Detail\Generic</Filter>
+    </None>
+    <None Include="..\..\thrust\system\detail\generic\temporary_buffer.inl">
+      <Filter>Header Files\System\Detail\Generic</Filter>
+    </None>
+    <None Include="..\..\thrust\system\detail\generic\transform.inl">
+      <Filter>Header Files\System\Detail\Generic</Filter>
+    </None>
+    <None Include="..\..\thrust\system\detail\generic\transform_reduce.inl">
+      <Filter>Header Files\System\Detail\Generic</Filter>
+    </None>
+    <None Include="..\..\thrust\system\detail\generic\scalar\binary_search.inl">
+      <Filter>Header Files\System\Detail\Generic\Scalar</Filter>
+    </None>
+    <None Include="..\..\thrust\system\detail\generic\scalar\select.inl">
+      <Filter>Header Files\System\Detail\Generic\Scalar</Filter>
+    </None>
+    <None Include="..\..\thrust\system\detail\internal\scalar\sort.inl">
+      <Filter>Header Files\System\Detail\Internal\Scalar</Filter>
+    </None>
+    <None Include="..\..\thrust\system\detail\internal\scalar\stable_merge_sort.inl">
+      <Filter>Header Files\System\Detail\Internal\Scalar</Filter>
+    </None>
+    <None Include="..\..\thrust\system\detail\internal\scalar\stable_primitive_sort.inl">
+      <Filter>Header Files\System\Detail\Internal\Scalar</Filter>
+    </None>
+    <None Include="..\..\thrust\system\detail\internal\scalar\stable_radix_sort.inl">
+      <Filter>Header Files\System\Detail\Internal\Scalar</Filter>
+    </None>
+    <None Include="..\..\thrust\system\detail\internal\scalar\copy.inl">
+      <Filter>Header Files\System\Detail\Internal\Scalar</Filter>
+    </None>
+    <None Include="..\..\thrust\system\detail\internal\scalar\merge.inl">
+      <Filter>Header Files\System\Detail\Internal\Scalar</Filter>
+    </None>
+    <None Include="..\..\thrust\system\omp\detail\sort.inl">
+      <Filter>Header Files\System\Omp\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\system\omp\detail\unique.inl">
+      <Filter>Header Files\System\Omp\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\system\omp\detail\unique_by_key.inl">
+      <Filter>Header Files\System\Omp\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\system\omp\detail\vector.inl">
+      <Filter>Header Files\System\Omp\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\system\omp\detail\copy.inl">
+      <Filter>Header Files\System\Omp\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\system\omp\detail\copy_if.inl">
+      <Filter>Header Files\System\Omp\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\system\omp\detail\default_decomposition.inl">
+      <Filter>Header Files\System\Omp\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\system\omp\detail\for_each.inl">
+      <Filter>Header Files\System\Omp\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\system\omp\detail\memory.inl">
+      <Filter>Header Files\System\Omp\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\system\omp\detail\partition.inl">
+      <Filter>Header Files\System\Omp\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\system\omp\detail\reduce.inl">
+      <Filter>Header Files\System\Omp\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\system\omp\detail\reduce_by_key.inl">
+      <Filter>Header Files\System\Omp\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\system\omp\detail\reduce_intervals.inl">
+      <Filter>Header Files\System\Omp\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\system\omp\detail\remove.inl">
+      <Filter>Header Files\System\Omp\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\system\tbb\detail\sort.inl">
+      <Filter>Header Files\System\Tbb\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\system\tbb\detail\unique.inl">
+      <Filter>Header Files\System\Tbb\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\system\tbb\detail\unique_by_key.inl">
+      <Filter>Header Files\System\Tbb\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\system\tbb\detail\vector.inl">
+      <Filter>Header Files\System\Tbb\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\system\tbb\detail\copy.inl">
+      <Filter>Header Files\System\Tbb\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\system\tbb\detail\copy_if.inl">
+      <Filter>Header Files\System\Tbb\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\system\tbb\detail\for_each.inl">
+      <Filter>Header Files\System\Tbb\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\system\tbb\detail\memory.inl">
+      <Filter>Header Files\System\Tbb\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\system\tbb\detail\merge.inl">
+      <Filter>Header Files\System\Tbb\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\system\tbb\detail\partition.inl">
+      <Filter>Header Files\System\Tbb\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\system\tbb\detail\reduce.inl">
+      <Filter>Header Files\System\Tbb\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\system\tbb\detail\reduce_by_key.inl">
+      <Filter>Header Files\System\Tbb\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\system\tbb\detail\remove.inl">
+      <Filter>Header Files\System\Tbb\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\system\tbb\detail\scan.inl">
+      <Filter>Header Files\System\Tbb\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\system\hpx\detail\memory.inl">
+      <Filter>Header Files\System\Hpx\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\system\hpx\detail\vector.inl">
+      <Filter>Header Files\System\Hpx\Detail</Filter>
+    </None>
+  </ItemGroup>
+</Project>
