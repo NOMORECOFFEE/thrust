@@ -49,7 +49,7 @@ void *malloc(fallback_allocator, std::size_t n)
         cudaError_t error = cudaFreeHost(h_ptr);
         if(error)
         {
-          throw thrust::system_error(error, thrust::cuda_category(), "Error after cudaFreeHost");
+          throw thrust::system_error(error, thrust::cuda_category(), "cudaFreeHost failed");
         }
 
         result = 0;
@@ -58,6 +58,7 @@ void *malloc(fallback_allocator, std::size_t n)
     else
     {
       std::cout << "  failed to allocate " << n << " bytes of memory (fallback failed)" << std::endl;
+      result = 0;
     }
   }
 
@@ -127,28 +128,35 @@ int main(void)
 
       // use our special malloc to allocate
       int *raw_ptr = (int *) malloc(alloc, n * sizeof(int));
-
-      if(raw_ptr)
+      if(!raw_ptr)
       {
-        thrust::cuda::pointer<int> begin = thrust::cuda::pointer<int>(raw_ptr);
-        thrust::cuda::pointer<int> end   = begin + n;
-
-        // generate unsorted values
-        thrust::tabulate(begin, end, thrust::placeholders::_1 % 1024);
-
-        // sort the data using our special allocator
-        // if temporary memory is required during the sort,
-        // our versions of malloc & free will be called
-        thrust::sort(alloc, begin, end);
-
-        free(alloc, raw_ptr);
+        throw std::bad_alloc();
       }
+
+      thrust::cuda::pointer<int> begin = thrust::cuda::pointer<int>(raw_ptr);
+      thrust::cuda::pointer<int> end   = begin + n;
+
+      // generate unsorted values
+      thrust::tabulate(begin, end, thrust::placeholders::_1 % 1024);
+
+      // sort the data using our special allocator
+      // if temporary memory is required during the sort,
+      // our versions of malloc & free will be called
+      try
+      {
+        thrust::sort(alloc, begin, end);
+      }
+      catch(std::bad_alloc)
+      {
+        std::cout << "  caught std::bad_alloc from thrust::sort" << std::endl;
+      }
+
+      free(alloc, raw_ptr);
     }
   }
   catch(std::bad_alloc)
   {
-    std::cout << "Caught std::bad_alloc" << std::endl;
-    return 0;
+    std::cout << "caught std::bad_alloc from malloc" << std::endl;
   }
 
   return 0;
