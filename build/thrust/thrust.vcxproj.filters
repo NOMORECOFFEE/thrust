@@ -691,9 +691,6 @@
     <ClInclude Include="..\..\thrust\system\cpp\detail\swap_ranges.h">
       <Filter>Header Files\System\Cpp\Detail</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\thrust\system\cpp\detail\tag.h">
-      <Filter>Header Files\System\Cpp\Detail</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\thrust\system\cpp\detail\temporary_buffer.h">
       <Filter>Header Files\System\Cpp\Detail</Filter>
     </ClInclude>
@@ -1558,9 +1555,6 @@
     <ClInclude Include="..\..\thrust\system\tbb\detail\swap_ranges.h">
       <Filter>Header Files\System\Tbb\Detail</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\thrust\system\tbb\detail\tag.h">
-      <Filter>Header Files\System\Tbb\Detail</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\thrust\system\tbb\detail\temporary_buffer.h">
       <Filter>Header Files\System\Tbb\Detail</Filter>
     </ClInclude>
@@ -1588,12 +1582,6 @@
     <ClInclude Include="..\..\thrust\system\tbb\detail\adjacent_difference.h">
       <Filter>Header Files\System\Tbb\Detail</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\thrust\system\tbb\detail\adl_targets.h">
-      <Filter>Header Files\System\Tbb\Detail</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\thrust\system\tbb\detail\advance.h">
-      <Filter>Header Files\System\Tbb\Detail</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\thrust\system\tbb\detail\assign_value.h">
       <Filter>Header Files\System\Tbb\Detail</Filter>
     </ClInclude>
@@ -1607,9 +1595,6 @@
       <Filter>Header Files\System\Tbb\Detail</Filter>
     </ClInclude>
     <ClInclude Include="..\..\thrust\system\tbb\detail\count.h">
-      <Filter>Header Files\System\Tbb\Detail</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\thrust\system\tbb\detail\distance.h">
       <Filter>Header Files\System\Tbb\Detail</Filter>
     </ClInclude>
     <ClInclude Include="..\..\thrust\system\tbb\detail\equal.h">
@@ -1690,14 +1675,107 @@
     <ClInclude Include="..\..\thrust\system\tbb\detail\set_operations.h">
       <Filter>Header Files\System\Tbb\Detail</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\thrust\system\hpx\detail\tag.h">
-      <Filter>Header Files\System\Hpx\Detail</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\thrust\system\hpx\memory.h">
       <Filter>Header Files\System\Hpx</Filter>
     </ClInclude>
     <ClInclude Include="..\..\thrust\system\hpx\vector.h">
       <Filter>Header Files\System\Hpx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\cpp\detail\execution_policy.h">
+      <Filter>Header Files\System\Cpp\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\hpx\execution_policy.h">
+      <Filter>Header Files\System\Hpx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\hpx\detail\partition.h">
+      <Filter>Header Files\System\Hpx\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\tbb\detail\execution_policy.h">
+      <Filter>Header Files\System\Tbb\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\tbb\detail\tabulate.h">
+      <Filter>Header Files\System\Tbb\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\hpx\detail\adjacent_difference.h">
+      <Filter>Header Files\System\Hpx\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\hpx\detail\assign_value.h">
+      <Filter>Header Files\System\Hpx\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\hpx\detail\copy.h">
+      <Filter>Header Files\System\Hpx\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\hpx\detail\copy_if.h">
+      <Filter>Header Files\System\Hpx\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\hpx\detail\equal.h">
+      <Filter>Header Files\System\Hpx\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\hpx\detail\execution_policy.h">
+      <Filter>Header Files\System\Hpx\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\hpx\detail\extrema.h">
+      <Filter>Header Files\System\Hpx\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\hpx\detail\fill.h">
+      <Filter>Header Files\System\Hpx\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\hpx\detail\find.h">
+      <Filter>Header Files\System\Hpx\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\hpx\detail\for_each.h">
+      <Filter>Header Files\System\Hpx\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\hpx\detail\generate.h">
+      <Filter>Header Files\System\Hpx\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\hpx\detail\get_value.h">
+      <Filter>Header Files\System\Hpx\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\hpx\detail\iter_swap.h">
+      <Filter>Header Files\System\Hpx\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\hpx\detail\logical.h">
+      <Filter>Header Files\System\Hpx\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\hpx\detail\malloc_and_free.h">
+      <Filter>Header Files\System\Hpx\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\hpx\detail\merge.h">
+      <Filter>Header Files\System\Hpx\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\hpx\detail\mismatch.h">
+      <Filter>Header Files\System\Hpx\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\hpx\detail\remove.h">
+      <Filter>Header Files\System\Hpx\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\hpx\detail\replace.h">
+      <Filter>Header Files\System\Hpx\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\hpx\detail\reverse.h">
+      <Filter>Header Files\System\Hpx\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\hpx\detail\sequence.h">
+      <Filter>Header Files\System\Hpx\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\hpx\detail\sort.h">
+      <Filter>Header Files\System\Hpx\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\hpx\detail\temporary_buffer.h">
+      <Filter>Header Files\System\Hpx\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\hpx\detail\uninitialized_copy.h">
+      <Filter>Header Files\System\Hpx\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\hpx\detail\uninitialized_fill.h">
+      <Filter>Header Files\System\Hpx\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\hpx\detail\unique.h">
+      <Filter>Header Files\System\Hpx\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thrust\system\hpx\detail\unique_by_key.h">
+      <Filter>Header Files\System\Hpx\Detail</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -2266,6 +2344,33 @@
       <Filter>Header Files\System\Hpx\Detail</Filter>
     </None>
     <None Include="..\..\thrust\system\hpx\detail\vector.inl">
+      <Filter>Header Files\System\Hpx\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\system\hpx\detail\copy.inl">
+      <Filter>Header Files\System\Hpx\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\system\hpx\detail\copy_if.inl">
+      <Filter>Header Files\System\Hpx\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\system\hpx\detail\for_each.inl">
+      <Filter>Header Files\System\Hpx\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\system\hpx\detail\merge.inl">
+      <Filter>Header Files\System\Hpx\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\system\hpx\detail\partition.inl">
+      <Filter>Header Files\System\Hpx\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\system\hpx\detail\remove.inl">
+      <Filter>Header Files\System\Hpx\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\system\hpx\detail\sort.inl">
+      <Filter>Header Files\System\Hpx\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\system\hpx\detail\unique.inl">
+      <Filter>Header Files\System\Hpx\Detail</Filter>
+    </None>
+    <None Include="..\..\thrust\system\hpx\detail\unique_by_key.inl">
       <Filter>Header Files\System\Hpx\Detail</Filter>
     </None>
   </ItemGroup>

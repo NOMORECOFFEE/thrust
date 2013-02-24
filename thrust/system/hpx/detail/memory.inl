@@ -15,7 +15,7 @@
  */
 
 #include <thrust/detail/config.h>
-#include <thrust/system/cpp/detail/tag.h>
+#include <thrust/system/cpp/detail/execution_policy.h>
 #include <thrust/system/hpx/memory.h>
 #include <thrust/system/cpp/memory.h>
 #include <limits>
@@ -85,6 +85,13 @@ inline pointer<void> malloc(std::size_t n)
   // return pointer<void>(thrust::system::cpp::malloc(n))
   //
   return detail::malloc_workaround(cpp::tag(), n);
+} // end malloc()
+
+template<typename T>
+pointer<T> malloc(std::size_t n)
+{
+  pointer<void> raw_ptr = thrust::system::tbb::malloc(sizeof(T) * n);
+  return pointer<T>(reinterpret_cast<T*>(raw_ptr.get()));
 } // end malloc()
 
 inline void free(pointer<void> ptr)
